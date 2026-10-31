@@ -11,7 +11,8 @@
 	<rect id="Прямоугольник 13" width="517.000000" height="86.000000" x="741.000000" y="86.000000" rx="43.000000" fill="rgb(0,0,0)" />
 	<circle id="Эллипс 21" cx="789" cy="129" r="26" fill="rgb(255,255,255)" />
 	<path id="Прямоугольник 14" d="M862.5 104L1211.5 104C1225.58 104 1237 115.417 1237 129.5C1237 143.583 1225.58 155 1211.5 155L862.5 155C848.417 155 837 143.583 837 129.5C837 115.417 848.417 104 862.5 104Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
-</svg> Open-Headphones
+</svg> 
+# Open-Headphones
 
 
 Open Headphones is an open‑source project for full‑size headphones.
