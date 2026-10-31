@@ -1,4 +1,4 @@
-# Open-Headphones <img width="1330" height="383" alt="Open-Headphones_logo" src="https://github.com/user-attachments/assets/54ea305a-fdee-446a-8b0c-332db27d3145" />
+# <img width="1330" height="383" alt="Open-Headphones_logo" src="https://github.com/user-attachments/assets/54ea305a-fdee-446a-8b0c-332db27d3145" />
 <svg viewBox="0 0 1330 383" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1330.000000" height="383.000000" fill="none">
 	<rect id="Срез 3" />
 	<rect id="Прямоугольник 12" width="1330.000000" height="383.000000" x="0.000000" y="-2.000000" fill="rgb(255,255,255)" />
@@ -11,7 +11,7 @@
 	<rect id="Прямоугольник 13" width="517.000000" height="86.000000" x="741.000000" y="86.000000" rx="43.000000" fill="rgb(0,0,0)" />
 	<circle id="Эллипс 21" cx="789" cy="129" r="26" fill="rgb(255,255,255)" />
 	<path id="Прямоугольник 14" d="M862.5 104L1211.5 104C1225.58 104 1237 115.417 1237 129.5C1237 143.583 1225.58 155 1211.5 155L862.5 155C848.417 155 837 143.583 837 129.5C837 115.417 848.417 104 862.5 104Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
-</svg>
+</svg> Open-Headphones
 
 
 Open Headphones is an open‑source project for full‑size headphones.
