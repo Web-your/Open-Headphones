@@ -1,4 +1,4 @@
-# <img width="1330" height="383" alt="Open-Headphones_logo" src="https://github.com/user-attachments/assets/54ea305a-fdee-446a-8b0c-332db27d3145" />
+<img width="1330" height="383" alt="Open-Headphones_logo" src="https://github.com/user-attachments/assets/54ea305a-fdee-446a-8b0c-332db27d3145" />
 <svg viewBox="0 0 1330 383" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1330.000000" height="383.000000" fill="none">
 	<rect id="Срез 3" />
 	<rect id="Прямоугольник 12" width="1330.000000" height="383.000000" x="0.000000" y="-2.000000" fill="rgb(255,255,255)" />
