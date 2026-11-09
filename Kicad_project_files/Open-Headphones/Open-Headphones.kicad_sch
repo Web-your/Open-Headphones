@@ -1304,182 +1304,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:PJ-320A"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PJ-320A"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320A_Horizontal"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 3.5mm, 4-pole/TRRS, Grounded/Switch, PJ-320A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PJ-320A_0_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end -2.54 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -1.27)
-					(mid -2.5344 0)
-					(end -1.27 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PJ-320A_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -4717,6 +4541,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 72.39) (xy 135.89 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88fec4c0-72ae-4c4a-97c7-4c9b8fd8c9fd")
+	)
+	(wire
+		(pts
 			(xy 40.64 120.65) (xy 40.64 123.19)
 		)
 		(stroke
@@ -5595,6 +5429,16 @@
 		)
 		(uuid "8313254a-4fac-4676-bde5-954c7b8a1de8")
 	)
+	(label "GND_2"
+		(at 135.89 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8509ea6e-ab23-46d2-bba0-90ea1a4bffb1")
+	)
 	(label "LRCK"
 		(at 81.28 85.09 0)
 		(effects
@@ -5834,6 +5678,16 @@
 			(justify right bottom)
 		)
 		(uuid "edb2c951-9998-450c-a37a-4e79309f1fdd")
+	)
+	(label "AGND"
+		(at 133.35 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f07b1020-7835-4f48-b98e-14061dac7dce")
 	)
 	(label "GND_1"
 		(at 213.36 33.02 180)
@@ -9011,80 +8865,6 @@
 			(project ""
 				(path "/5e672326-20ac-4042-b8a1-a9dd96b7714b"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:PJ-320A")
-		(at 228.6 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e002e9fd-81e9-4852-a990-e96f058c0446")
-		(property "Reference" "J1"
-			(at 227.965 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PJ-320A_Вход_для телефона"
-			(at 227.965 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320A_Horizontal"
-			(at 228.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 3.5mm, 4-pole/TRRS, Grounded/Switch, PJ-320A"
-			(at 228.6 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a34dbf7a-adf1-4332-b363-462088260ae0")
-		)
-		(pin "1"
-			(uuid "baa3e60e-9f2a-4919-8b44-47f63edddc25")
-		)
-		(pin "3"
-			(uuid "83fd90d7-44d6-4895-9f0a-04f720c49d27")
-		)
-		(pin "2"
-			(uuid "c4f059ed-5cb4-44a0-8686-645ce91ff936")
-		)
-		(instances
-			(project ""
-				(path "/5e672326-20ac-4042-b8a1-a9dd96b7714b"
-					(reference "J1")
 					(unit 1)
 				)
 			)
